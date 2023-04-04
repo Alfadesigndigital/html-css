@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+<style>
+body{
+
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a {
+ color: blueviolet;
+ text-decoration: none;
+ font-weight: bold;
+}
+
+a:hover {
+    color: black;
+  text-decoration: underline;
+
+}
+
+a:active{
+
+    color: aqua;
+}
+
+
+.especial {
+
+    background-color: rgba(66, 66, 204, 0.576);
+    color: brown;
+}
+
+
+
+.especial::before {
+  content:'⇛ ' ;
+ 
+}
+
+.especial::after { 
+    content:' ⇐' ;
+    
+}
+
+ul{
+
+    background-color: aqua;
+    border-radius: 15px;
+    height: 80px;
+    box-shadow: rgba(179, 80, 250, 0.141) 10px 10px 5px;
+    padding-top: 20px;
+  }
+
+  li{
+
+   
+
+
+  }
+
+</style>
+
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/Alfa-2023God" target="_blank">Repositório Git Hub</a></li>
+        <li><a href="https://www.youtube.com/watch?v=B0O_6zE3UuM" class="especial">Canal no YouTube</a></li>
+        <li><a href="https://www.devmedia.com.br/html-entities-html-symbols-html-characters/1011">Site Estudos</a></li>
+    </ul>
+</body>
+</html>
