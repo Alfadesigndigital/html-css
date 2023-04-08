@@ -16,6 +16,7 @@
 
           width: 500px;
           border-collapse: collapse;
+          position:relative;
 
         }
 
@@ -33,7 +34,6 @@
             padding: 10px;
             background-color: aqua;
 
-
         }
 
         thead, tfoot{
@@ -43,12 +43,26 @@
 
         }
 
-        tbody > tr:nth-child(2m)  {
-               
-                background-color: azure;
+        thead > tr > th {
 
+           position: sticky;
+           top: 0;
+           background-color: ;
 
         }
+
+        tbody > tr:nth-child(odd)  {  /* No lugar de odd, posso colocar 2n-1 */
+               
+              background-color: azure;
+
+        }
+
+        tbody > tr:nth-child(even)  {  /* No lugar de even, posso colocar 2n */
+               
+               background-color: rgba(169, 209, 255, 0.756);
+ 
+        }
+ 
 
 
         td.num {
