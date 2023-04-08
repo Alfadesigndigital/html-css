@@ -26,12 +26,30 @@
 
         }
 
+        caption {
+
+            font-size: 1.5m;
+            font-weight: bold;
+            padding: 10px;
+            background-color: aqua;
+
+
+        }
+
         thead, tfoot{
 
            background-color: cornflowerblue;
            color: azure;
 
         }
+
+        tbody > tr:nth-child(2m)  {
+               
+                background-color: azure;
+
+
+        }
+
 
         td.num {
 
@@ -45,6 +63,7 @@
     <!-- Anatômia para tabela grandes
     
     Table
+    CAPTION (Legenda)
       Head
         TR, TD, TH
     Tbody
@@ -54,10 +73,13 @@
     -->
 
  <table>
+    <caption>
+        População das Unidades Federativas
+    </caption>
     <thead>
         <tr>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 50px;">População</th>
         </tr>
     </thead>
 <tbody>
@@ -168,7 +190,7 @@
          
   <tfoot>
         <tr>
-            <th><strong>Total de Habitantes</strong></th>
+            <th scope="rowgroup"><strong>Total de Habitantes</strong></th>
             <td class="num"><strong>210.147.125</strong></td>
         </tr>
   </tfoot>
