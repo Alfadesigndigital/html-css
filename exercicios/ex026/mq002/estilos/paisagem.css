@@ -2,18 +2,8 @@
 
 /* Estilo Paisagem */
 
+body {
 
-* {
-   
-    margin: 0px;
-    padding: 0px;
-
-}
-
-
-html {
-
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
-
-}
+    background-image:url(../imagens/cev-landscape.jpg)  rgb(200, 0, 255);
+  
+  }

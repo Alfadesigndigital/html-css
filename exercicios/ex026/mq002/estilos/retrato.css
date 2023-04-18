@@ -1,28 +1,11 @@
 @charset "UTF-8";
 
-/* Configurações Gerais */
+
+/* Estilo Retrato */
 
 
-* {
-   
-    margin: 0px;
-    padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+body {
 
-}
+    background-image:url(../imagens/cev-portrait.jpg) aqua;
 
-
-html, body {
-
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(69, 35, 224);
-    
-}
-
-
-h1 {
-
-   color: beige;
-   text-shadow: 3px 3px 0px #1526a7;
 }
