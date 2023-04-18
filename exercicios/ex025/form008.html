@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Test com formulários</h1>
-    <form action="cadastro.php" method="get" autocomplete="on"></form>
+    <form action="cadastro.php" method="get" autocomplete="on">
 
 <p>
    <label for="in1">Número 1: </label>
@@ -22,7 +22,7 @@
     <label for="in2">Número 2: </label>
     <input type="number" name="n2" id="in2" min="0" max="50" required
     oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
- >
+ 
     
 </p>
  
@@ -34,5 +34,6 @@
     <input type="submit" value="Enviar">
     <input type="reset" value="Limpar">
 </p>
+</form>
 </body>
 </html>
