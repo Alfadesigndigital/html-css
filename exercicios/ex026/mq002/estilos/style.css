@@ -17,6 +17,8 @@ html, body {
     width: 100vw;
     height: 100vh;
     background-color: rgb(69, 35, 224);
+    background-size: contain;
+    background-repeat: no-repeat ;
     
 }
 
@@ -27,3 +29,4 @@ h1 {
    text-shadow: 3px 3px 0px #1526a7;
    padding: 10px;
 }
+
