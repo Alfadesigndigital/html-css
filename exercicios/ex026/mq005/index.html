@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Midia Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.CSS">
+    
 </head>
 <body>
    <header>
     <h1>Site Portfólio Midia Query</h1>
-    <menu>
+    <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+    <menu id="itens">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Serviços</a></li>
@@ -142,6 +145,20 @@
             Os desenvolvedores precisam acordar.</p>
       </article>
    </main>
+   <script>
+       function clickMenu() {
+          if (itens.style.display =='block') {
+              itens.style.display = 'none'
+              } else {
+                itens.style.display = 'block'
+
+
+          }
+               
+
+        }
+
+   </script>
    
 </body>
 </html>

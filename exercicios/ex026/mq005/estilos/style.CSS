@@ -27,9 +27,30 @@ header > h1 {
 
 }
 
+
+i#burguer {
+
+    background-color: rgba(78, 15, 188, 0.889);
+    color: rgb(211, 180, 240);
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+ 
+i#burguer:hover {
+
+    background-color: rgb(79, 15, 188);
+    color: rgb(184, 225, 255);
+    
+}
+
+
 menu {
 
-    display: block;
+    display: none;
 
 }
 
