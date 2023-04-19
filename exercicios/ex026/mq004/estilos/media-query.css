@@ -29,11 +29,21 @@ Telas grandes ex - TV: Acima de 1200px
      } 
 
      
-     main {
-    
-     border: 2px solid black;
+    main {
 
-     }
+    width: 700px;
+    border: 2px solid;
+   
+        }
+   
+   
+    main::after {
+   
+       content: 'Essa impressaão foi feita através do site www.alfadesigndigital.com';
+       text-decoration: overline;
+   
+   
+    }
 
 
      main h1 {
@@ -93,12 +103,7 @@ Telas grandes ex - TV: Acima de 1200px
      background-image: url(../imagens/back-tv.jpg);
 
      }
-    
-     main {
 
-     width: 700px;
-
-     }
 
      img#phone { display: none }
      img#tablet { display: none ; }
