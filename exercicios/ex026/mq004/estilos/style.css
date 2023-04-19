@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "UTF-8"; 
 
  /* Vesão Mobile First */
 
@@ -21,12 +21,13 @@
 
   }
 
-  body {
+ body {
 
     background: black url(../imagens/back-phone.jpg) no-repeat;
 
 
-  }
+ }
+
 
   main {
 
