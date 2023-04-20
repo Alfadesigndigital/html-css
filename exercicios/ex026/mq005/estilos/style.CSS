@@ -65,7 +65,7 @@ menu  > ul  > li > a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    text-align: center;
+    text-align:center;
     background-color: black;
     color: azure;
     border-top: 2px solid rgb(63, 21, 145);
