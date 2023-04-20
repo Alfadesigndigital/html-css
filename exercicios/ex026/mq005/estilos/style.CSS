@@ -3,6 +3,8 @@
 * {
 
    font-family: Arial, Helvetica, sans-serif;
+   margin: 0px;
+   padding: 0px;
 
 }
 
@@ -65,13 +67,13 @@ menu  > ul  > li > a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    text-align:center;
+    text-align: center;
     background-color: black;
     color: azure;
     border-top: 2px solid rgb(63, 21, 145);
 }
 
-
+ 
 menu  > ul  > li > a:hover {
 
     background-color: rgb(0, 23, 116);
@@ -80,16 +82,36 @@ menu  > ul  > li > a:hover {
 
 main {
 
-   width: 90vh;
+   width: 90vw;
    background-color: aliceblue;
    margin: auto;
    margin-top: 10px;
    padding: 10px;
    border-radius: 10px;
+   box-shadow: 2px 6px 6px 0px rgba(0, 0, 0, 0.547);
     
 }
 
 article > h2 {
+
+   text-align: center;
+   padding-bottom: 20px;
+   color: blue;
+   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.287);
+   
+}
+
+
+article:hover h2 {
+
+    color: rgb(140, 0, 255);
+
+
+}
+
+
+
+article > p {
 
    text-align: justify;
    margin-bottom: 20px;
